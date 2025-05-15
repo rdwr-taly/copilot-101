@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"chat.agent.maxRequests": 20,
+		"github.copilot.chat.agent.runTasks": true,
+		"github.copilot.chat.agent.autoFix": true,
+		"chat.mcp.discovery.enabled": true,
+		"github.copilot.chat.codeGeneration.useInstructionFiles": true
+	}
+}

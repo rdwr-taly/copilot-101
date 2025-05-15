@@ -8,7 +8,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --coverage",
+    "fact": "node src/cli.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/rdwr-taly/copilot-101/issues"
   },
-  "homepage": "https://github.com/rdwr-taly/copilot-101#readme"
+  "homepage": "https://github.com/rdwr-taly/copilot-101#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "node-fetch": "^3.3.2",
+    "supertest": "^7.1.1"
+  }
 }
